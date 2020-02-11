@@ -1,16 +1,41 @@
 .title {
   width: 100%;
   text-align: center;
-  font-size: 3rem;
-  text-decoration: underline;
-  color: #2A77AE;
+  font-size: 6rem;  
+  color: red;
   margin-bottom: 50px;
   font-family: 'Bangers', cursive;
 }
 
-.jumbotron-fluid {
-  width: 100%;
-  height: 30%;
-  font-family: 'Bangers', cursive;
+h1.title {
+  color: darkred;
+  text-shadow: 1.5px 1.5px black;
   
 }
+
+.header {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  align-content: center;
+  /* background-color: ; */
+  font-family: 'Bangers', cursive;
+  /* background-color: rgba(0,0,0,0.2); */
+  background-image: url("/public/images/beyblade-bg.jpg");
+  
+}
+
+.lead, .highScore {
+  background-color:  #504f54;
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Quantico', sans-serif;
+  display: inline-block;
+  margin: 10px;
+  padding: 7px;
+  /* width: 70%; */
+  text-align: center;
+  border-radius: 7px;  
+  align-content: left;
+}
+

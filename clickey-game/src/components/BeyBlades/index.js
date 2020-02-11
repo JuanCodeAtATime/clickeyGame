@@ -2,17 +2,15 @@ import React from 'react';
 import "./style.css"
 
 const BeyBlades = props => (
-    <div className="card">
+    <div className="card click col-3" onClick={() => props.handleClickEvent(props.name)}>
         <div className="img-container">
-            <img alt={props.name} src={props.image} />
+            <img alt={"BeyBlade"} src={props.image} />
+
         </div>
         <div className="content">
-            <ul>
-                <li>Name: </li> {props.name}
-                <li>Type: </li> {props.type}
-            </ul>
+            <p class="beyName"><strong>Name: </strong>{props.name} <br></br><strong>Type: </strong>{props.type}</p>
         </div>
-        <button onClick={() => props.removeBey(props.id)} className="remove">X</button>
+
     </div>
 );
 

@@ -24,12 +24,12 @@ class App extends Component {
     clicked: [],
   };
 
-  removeBey = id => {
-    const beys = this.state.beys.filter(beyblade => beyblade.id !== id)
-    this.setState({ beys });
-  }
+  // removeBey = id => {
+  //   const beys = this.state.beys.filter(beyblade => beyblade.id !== id)
+  //   this.setState({ beys });
+  // }
 
-  handleClick = id => {
+  handleClickEvent = id => {
     if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
       this.setState({ clicked: this.state.clicked.concat(id) });
@@ -53,7 +53,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       highScore: this.state.highScore,
-      message: "Wrong! Click an image to play again",
+      message: "Sorry! You already clicked on that Bey.  Try Again!",
       clicked: []
     });
     this.handleShuffle();
@@ -76,16 +76,15 @@ class App extends Component {
           message={this.state.message}
         />
 
-        {/* // Map over this.state.beys and render a BeyBlade card component for each friend object */}
+        {/* // Map over this.state.beys and render a BeyBlade card component for each BeyBlade object */}
         {this.state.beys.map(beyblade => (
           <BeyBlades
-            removeBey={this.removeBey}
             id={beyblade.id}
-            key={beyblade.key}
+            key={beyblade.id}
             name={beyblade.name}
             image={beyblade.image}
             type={beyblade.type}
-            handleClick={this.handleClick}
+            handleClickEvent={this.handleClickEvent}
             handleIncrement={this.handleIncrement}
             handleReset={this.handleReset}
             handleShuffle={this.handleShuffle}

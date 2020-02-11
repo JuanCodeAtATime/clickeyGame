@@ -1,11 +1,10 @@
 .wrapper {
     padding-top: 50px;
-    background: #ECEFF1;
-    height: 100%;
-    display: flex;
-    flex-flow: row wrap;
+    background-image: url("http://localhost:3000/clickeyGame/public/images/");
+    height: 100%;  
     padding: 20px;
     justify-content: space-around;
-    align-content: flex-start;
+    align-content: center;
     overflow: auto;
+    text-align: center;
   }

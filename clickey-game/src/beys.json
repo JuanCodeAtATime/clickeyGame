@@ -2,19 +2,19 @@
     {
         "id": 1,
         "name": "Imperial Dragon",
-        "image": "%PUBLIC_URL%/beyblade1.jpeg",
+        "image": "../public/images/beyblade1.jpeg",
         "type": "Attack"
     },
     {
         "id": 2,
         "name": "Revive Phoenix",
-        "image": "%PUBLIC_URL%/beyblade2.jpeg",
+        "image": "../public/images/beyblade2.jpeg",
         "type": "Defense"
     },
     {
         "id": 3,
         "name": "Wolborg 8 Bearing",
-        "image": "%PUBLIC_URL%/beyblade3.jpeg",
+        "image": "../public/images/beyblade3.jpeg",
         "type": "Stamina"
     },
     {

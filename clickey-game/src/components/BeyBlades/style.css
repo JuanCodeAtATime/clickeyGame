@@ -8,16 +8,19 @@
     width: 325px;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     text-align: left;
+    cursor: pointer;
+    float: left;
+    min-width: 250px;
   }
   
   .card > .img-container {
-    height: 60%;
+    height: 80%;
     overflow: hidden;
     text-align: center;
     background:#6CADDC;
   }
   .card > .img-container > img {
-    width: 60%
+    width: 100%
   }
   
   .card > .content {
@@ -26,23 +29,13 @@
     font-size: 15px;
   }
   
-  .card > .content > ul {
-    list-style-type: none;
+  
+  .card > .content {
+    margin-top: 10px;
+    margin-bottom: 2px;
   }
   
-  .card > .content > ul > li {
-    margin-top: 18px;
-  }
-  
-  .card > .remove {
-    color: #ff1744;
-    font-size: 48px;
-    position: absolute;
-    top: -20px;
-    right: 5px;
-    cursor: pointer;
-  }
-  
-  .card > .remove:hover {
-    color: #d50000;
+  .beyName {
+    color: darkred;
+    font-family: 'Bangers', cursive;
   }
