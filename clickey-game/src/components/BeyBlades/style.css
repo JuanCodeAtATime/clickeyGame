@@ -14,10 +14,11 @@
   }
   
   .card > .img-container {
-    height: 80%;
+    height: 100%;
     overflow: hidden;
     text-align: center;
-    background:#6CADDC;
+    background:white;
+    border-bottom: solid 1px darkred;
   }
   .card > .img-container > img {
     width: 100%
@@ -27,11 +28,12 @@
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 15px;
+    text-align: center;
   }
   
   
   .card > .content {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 2px;
   }
   

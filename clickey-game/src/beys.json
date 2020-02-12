@@ -2,49 +2,49 @@
     {
         "id": 1,
         "name": "Imperial Dragon",
-        "image": "../public/images/beyblade1.jpeg",
+        "image": "/images/beyblade1.jpeg",
         "type": "Attack"
     },
     {
         "id": 2,
         "name": "Revive Phoenix",
-        "image": "../public/images/beyblade2.jpeg",
+        "image": "/images/beyblade2.jpeg",
         "type": "Defense"
     },
     {
         "id": 3,
         "name": "Wolborg 8 Bearing",
-        "image": "../public/images/beyblade3.jpeg",
+        "image": "/images/beyblade3.jpeg",
         "type": "Stamina"
     },
     {
         "id": 4,
         "name": "Slash Valkyrie Blitz",
-        "image": "../public/images/beyblade4.jpeg",
+        "image": "/images/beyblade4.jpeg",
         "type": "Attack"
     },
     {
         "id": 5,
         "name": "Venom Diabolos ",
-        "image": "../public/images/beyblade5.jpeg",
+        "image": "/images/beyblade5.jpeg",
         "type": "Balance"
     },
     {
         "id": 6,
         "name": "Black Drain Fafnir",
-        "image": "../public/images/beyblade6.jpeg",
+        "image": "/images/beyblade6.jpeg",
         "type": "Stamina"
     },
     {
         "id": 7,
         "name": "Legend Spryzen",
-        "image": "../public/images/beyblade7.jpeg",
+        "image": "/images/beyblade7.jpeg",
         "type": "Balance"
     },
     {
         "id": 8,
         "name": "Bushin Ashura Hurricane",
-        "image": "../public/images/beyblade8.jpeg",
+        "image": "/images/beyblade8.jpeg",
         "type": "Defense"
     }
 ]

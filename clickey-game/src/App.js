@@ -67,8 +67,10 @@ class App extends Component {
 
 
   render() {
+    console.log(beys)
     return (
       <Wrapper>
+
         <Header
           title="BeyBlade Clicks"
           score={this.state.currentScore}
@@ -90,6 +92,7 @@ class App extends Component {
             handleShuffle={this.handleShuffle}
           />
         ))}
+
       </Wrapper>
     );
   }
