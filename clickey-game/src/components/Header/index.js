@@ -7,8 +7,8 @@ function Header(props) {
             <div className="container">
                 <h1 className="title">{props.title}</h1>
                 <p className="lead">Current Score: {props.score} </p>
-                <p className="lead">High Score: {props.highScore}</p>
-                <p className="lead"><em>{props.message}</em></p>
+                <p className="highScore">Highest Score: {props.highScore}</p>
+                <p className="scoreMsg">{props.message}</p>
 
             </div>
         </div>

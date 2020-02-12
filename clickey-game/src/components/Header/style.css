@@ -1,15 +1,10 @@
-.title {
-  width: 100%;
-  text-align: center;
-  font-size: 6rem;  
-  color: red;
+h1.title {
+  color: yellow;
+  text-shadow: 8px 5px darkred;
   margin-bottom: 50px;
   font-family: 'Bangers', cursive;
-}
-
-h1.title {
-  color: darkred;
-  text-shadow: 1.5px 1.5px black;
+  text-align: center;
+  font-size: 7.5rem;  
   
 }
 
@@ -18,15 +13,12 @@ h1.title {
   height: 30%;
   text-align: center;
   align-content: center;
-  /* background-color: ; */
   font-family: 'Bangers', cursive;
-  /* background-color: rgba(0,0,0,0.2); */
-  background-image: url("/public/images/beyblade-bg.jpg");
-  
+
 }
 
-.lead, .highScore {
-  background-color:  #504f54;
+.lead {
+  background-color:  darkred;
   color: whitesmoke;
   text-align: center;
   font-family: 'Quantico', sans-serif;
@@ -38,4 +30,36 @@ h1.title {
   border-radius: 7px;  
   align-content: left;
 }
+
+.highScore {
+  background-color:  green;
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Quantico', sans-serif;
+  display: inline-block;
+  margin: 10px;
+  padding: 7px;
+  /* width: 70%; */
+  text-align: center;
+  border-radius: 7px;  
+  align-content: left;
+  font-size: 1.25rem;
+}
+
+
+
+.scoreMsg {
+  background-color: rgba(88, 74, 74, 0.65);  
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Quantico', sans-serif;
+  display: block;
+  border-radius: 7px;  
+  font-size: 2rem;
+  font-weight: 300;
+
+
+}
+
+
 

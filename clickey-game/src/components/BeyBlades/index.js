@@ -2,7 +2,7 @@ import React from 'react';
 import "./style.css"
 
 const BeyBlades = props => (
-    <div className="card click col-3" onClick={() => props.handleClickEvent(props.name)}>
+    <div className="card click" onClick={() => props.handleClickEvent(props.name)}>
         <div className="img-container">
             <img alt={"BeyBlade"} src={props.image} />
 

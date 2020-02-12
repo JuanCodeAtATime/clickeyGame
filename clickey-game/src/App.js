@@ -24,10 +24,6 @@ class App extends Component {
     clicked: [],
   };
 
-  // removeBey = id => {
-  //   const beys = this.state.beys.filter(beyblade => beyblade.id !== id)
-  //   this.setState({ beys });
-  // }
 
   handleClickEvent = id => {
     if (this.state.clicked.indexOf(id) === -1) {
@@ -53,7 +49,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       highScore: this.state.highScore,
-      message: "Sorry! You already clicked on that Bey.  Try Again!",
+      message: "Oops! You already clicked that Bey. Try Again!",
       clicked: []
     });
     this.handleShuffle();
@@ -92,7 +88,6 @@ class App extends Component {
             handleShuffle={this.handleShuffle}
           />
         ))}
-
       </Wrapper>
     );
   }

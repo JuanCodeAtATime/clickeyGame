@@ -1,16 +1,16 @@
-  
+
 .card {
-    background: #fff;
-    border-radius: 2px;
-    height: 325px;
-    margin: 1rem;
-    position: relative;
-    width: 325px;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-    text-align: left;
-    cursor: pointer;
-    float: left;
-    min-width: 250px;
+    /* background; */
+    border-radius: 4px;
+    height: 225px;
+    width: 225px;
+    margin: 1rem;    
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;   
+    cursor: pointer;    
+    min-width: 225px;
+    min-height: 225px;
+    display: inline-block;
+    margin-bottom: 100px;
   }
   
   .card > .img-container {
@@ -18,26 +18,27 @@
     overflow: hidden;
     text-align: center;
     background:white;
-    border-bottom: solid 1px darkred;
+    border-bottom: solid 2px darkred;
   }
   .card > .img-container > img {
-    width: 100%
+    width: 95%
   }
   
   .card > .content {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0 1rem;   
     font-size: 15px;
     text-align: center;
-  }
-  
-  
-  .card > .content {
-    margin-top: 5px;
-    margin-bottom: 2px;
-  }
+    background-color: white;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999; 
+    width: 225px;
+    min-width: 225px;  
+   
+  } 
+ 
   
   .beyName {
     color: darkred;
     font-family: 'Bangers', cursive;
   }
+
+
