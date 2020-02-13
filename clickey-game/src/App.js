@@ -22,7 +22,7 @@ class App extends Component {
     beys,
     currentScore: 0,
     highScore: 0,
-    message: "",
+    message: "**DON'T CLICK THE SAME BEY TWICE.  8 PTS WINS THE GAME!**",
     clicked: []
   };
 
@@ -43,7 +43,7 @@ class App extends Component {
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
-      message: "Correct!"
+      message: "CORRECT!"
     });
     if (newScore >= this.state.highScore) {
       this.setState({ highScore: newScore });
@@ -60,7 +60,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       highScore: this.state.highScore,
-      message: "Oops! You already clicked that Bey. Try Again!",
+      message: "OOPS! YOU ALREADY CLICKED THAT ONE. TRY AGAIN!",
       clicked: []
     });
     this.handleShuffle();
@@ -73,7 +73,7 @@ class App extends Component {
 
 
   handleMaxScore = () => {
-    this.setState({ message: "WOW! You clicked 8 unique Beys. YOU WIN!" });
+    this.setState({ message: "WOW! YOU CLICKED 8 DIFFERENT BEYS. YOU WIN!" });
     console.log('Congrats!  Max score achieved');
   };
 
