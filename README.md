@@ -18,6 +18,6 @@
 ## Game Objective
 Click a different Beyblade image 8 times to win the game.  Beware, clicking the same Beyblade before reaching 8 points will reset your score to 0.  
 
-###Watch the Demo!
+## Watch the Demo!
 *Check out the video to see BeyBlade Clicks in action!*
 [insert video here]
