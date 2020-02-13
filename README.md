@@ -1,16 +1,15 @@
 # BeyBlade Clicks 
 
 ### Overview
-Beyblade Clicks is a memory game using ```React```.  
-
-Upon entering this application, it renders all the items available for sale on the command line.  A ```for loop``` is used to display the items by product id, name, stock quantity, and price.
+**Beyblade Clicks** is a memory game that uses ```React```.  
 
 ### Game Details
-* This app keeps track of the user's score. 
+* The app keeps track of the user's score. 
 * The user's score increments when a unique image is clicked. 
 * The user's score resets to 0 if the same image is clicked more than once.
 * Every time an image is clicked, the images shuffle themselves in random order.
 * After an incorrect guess, the game restarts.  
+* Difficulty level is low as Ethan (my 5 year old son) was the first beta tester and happens to be a huge Beyblade fan.  
 
 ### Game Objective
 Click a different Beyblade image 8 times to win the game.  Beware, clicking the same Beyblade before reaching 8 points will reset your score to 0.  
