@@ -19,6 +19,5 @@ Click a different Beyblade image 8 times to win the game.  Beware, clicking the 
 * Difficulty level is low as Ethan (my 5 year old son) was the first beta tester and happens to be a huge Beyblade fan.  
 
 ## Watch the Demo!
-*Check out the video to see BeyBlade Clicks in action!*
-* https://drive.google.com/file/d/1gDlq5CGQ5g3MWt355mywmnVIxPgkQu_Y/view
+[Check out the video to see BeyBlade Clicks in action!](https://drive.google.com/file/d/1gDlq5CGQ5g3MWt355mywmnVIxPgkQu_Y/view)
 
