@@ -20,5 +20,5 @@ Click a different Beyblade image 8 times to win the game.  Beware, clicking the 
 
 ## Watch the Demo!
 *Check out the video to see BeyBlade Clicks in action!*
-[insert video here]
+* https://drive.google.com/file/d/1gDlq5CGQ5g3MWt355mywmnVIxPgkQu_Y/view
 
