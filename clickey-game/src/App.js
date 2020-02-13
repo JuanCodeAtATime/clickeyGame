@@ -14,6 +14,8 @@ function shuffleBeys(array) {
   return array;
 };
 
+
+
 class App extends Component {
 
   state = {
@@ -21,18 +23,22 @@ class App extends Component {
     currentScore: 0,
     highScore: 0,
     message: "",
-    clicked: [],
+    clicked: []
   };
+
 
 
   handleClickEvent = id => {
     if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
       this.setState({ clicked: this.state.clicked.concat(id) });
-    } else {
+    }
+    else {
       this.handleReset();
     }
   };
+
+
   handleIncrement = () => {
     const newScore = this.state.currentScore + 1;
     this.setState({
@@ -42,8 +48,13 @@ class App extends Component {
     if (newScore >= this.state.highScore) {
       this.setState({ highScore: newScore });
     }
+    if (this.state.currentScore >= 7) {
+      this.handleMaxScore();
+    }
     this.handleShuffle();
   };
+
+
 
   handleReset = () => {
     this.setState({
@@ -61,9 +72,20 @@ class App extends Component {
   };
 
 
+  handleMaxScore = () => {
+    this.setState({ message: "WOW! You clicked 8 unique Beys. YOU WIN!" });
+    console.log('Congrats!  Max score achieved');
+  };
+
+
 
   render() {
+
+
+
     console.log(beys)
+    console.log(this.state.currentScore)
+
     return (
       <Wrapper>
 
@@ -86,6 +108,7 @@ class App extends Component {
             handleIncrement={this.handleIncrement}
             handleReset={this.handleReset}
             handleShuffle={this.handleShuffle}
+            handleMaxScore={this.handleMaxScore}
           />
         ))}
       </Wrapper>
