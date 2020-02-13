@@ -2,8 +2,6 @@
 - ```Developer: Juan Rivera```
 - ```Date: February 13, 2020```
 
-![Beyblade Clicks, a memory game featuring React](/public/images/app-screenshot.PNG)
-
 ## Overview
 **Beyblade Clicks** is a memory game that uses ```React```.  
 
