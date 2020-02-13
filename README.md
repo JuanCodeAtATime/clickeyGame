@@ -1,4 +1,6 @@
 # BeyBlade Clicks 
+- ```Developer: Juan Rivera```
+- ```Date: February 13, 2020```
 
  ![Beyblade Clicks, a memory game featuring React](clickey-game/public/images/app-screenshot.PNG)
 
