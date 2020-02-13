@@ -1,5 +1,7 @@
 # BeyBlade Clicks 
 
+ ![Beyblade Clicks, a memory game featuring React](clickey-game/public/images/app-screenshot.PNG)
+
 ### Overview
 **Beyblade Clicks** is a memory game that uses ```React```.  
 
