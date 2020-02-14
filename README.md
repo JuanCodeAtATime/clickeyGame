@@ -18,6 +18,9 @@ Click a different Beyblade image 8 times to win the game.  Beware, clicking the 
 * After an incorrect guess, the game restarts.  
 * Difficulty level is low as Ethan (my 5 year old son) was the first beta tester and happens to be a huge Beyblade fan.  
 
-## Watch the Demo!
+## Watch the Demo
 [Click here to see the Beyblades game in action!](https://drive.google.com/file/d/1gDlq5CGQ5g3MWt355mywmnVIxPgkQu_Y/view)
+
+## Play now
+[Click here for live site!](https://beyblade-clicks.herokuapp.com/)
 
