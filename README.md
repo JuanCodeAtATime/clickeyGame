@@ -8,7 +8,7 @@
 **Beyblade Clicks** is a memory game that uses ```React```.  
 
 ## Game Objective
-Click a different Beyblade image 8 times to win the game.  Beware, clicking the same Beyblade before reaching 8 points will reset your score to 0.  
+Click a unique Beyblade image 8 times in a row to win the game.  Each Beyblade image is worth 1 point.  Beware, clicking the same Beyblade before reaching 8 points will reset your score to 0.  
 
 ## Game Details
 * The app keeps track of the user's score. 
