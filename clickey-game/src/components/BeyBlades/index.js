@@ -8,7 +8,7 @@ const BeyBlades = props => (
 
         </div>
         <div className="content">
-            <p className="beyName"><strong>Name: </strong>{props.name} <br></br><strong>Type: </strong>{props.type}</p>
+            <p className="beyName"><strong></strong>{props.name} <br></br><strong>Type: </strong>{props.type}</p>
         </div>
 
     </div>

@@ -19,6 +19,7 @@ h1.title {
 
 .lead {
   background-color:  darkred;
+  box-shadow: 0 1.5px 1.5px yellow, 0 1.5px 1.5px yellow;   
   color: whitesmoke;
   text-align: center;
   font-family: 'Quantico', sans-serif;
@@ -33,6 +34,7 @@ h1.title {
 
 .highScore {
   background-color:  green;
+  box-shadow: 0 1.5px 1.5px yellow, 0 1.5px 1.5px yellow;   
   color: whitesmoke;
   text-align: center;
   font-family: 'Quantico', sans-serif;
@@ -49,8 +51,9 @@ h1.title {
 
 
 .scoreMsg {
-  background-color: rgba(88, 74, 74, 0.65);  
-  color: whitesmoke;
+  background-color: rgba(255, 255, 255, 0.45);  
+  box-shadow: 0 3px 3px #999, 0 3px 3px #999;   
+  color: black;
   text-align: center;
   font-family: 'Quantico', sans-serif;
   display: block;
