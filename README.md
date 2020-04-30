@@ -5,10 +5,10 @@
  ![Beyblade Clicks, a memory game featuring React](clickey-game/public/images/app-screenshot.PNG)
 
 ## Overview
-**Beyblade Clicks** is a memory game that uses ```React```.  
+**Beyblade Clicks** is an anime-themed memory game built with React.  This particular app was my first-ever React project.  The theme was influenced by my 5-year old son who is obsessed with BeyBlades.
 
 ## Game Objective
-Click a unique Beyblade image 8 times in a row to win the game.  Each Beyblade image is worth 1 point.  Beware, clicking the same Beyblade before reaching 8 points will reset your score to 0.  
+Click a unique Beyblade card 8 times in a row to win the game.  Each Beyblade card is worth 1 point.  Beware, clicking the same Beyblade before reaching 8 points will reset your score to 0.  
 
 ## Game Details
 * The app keeps track of the user's score. 
