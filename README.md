@@ -18,12 +18,15 @@ Click a different Beyblade image 8 times to win the game.  Beware, clicking the 
 * After an incorrect guess, the game restarts.  
 * Difficulty level is low as Ethan (my 5 year old son) was the first beta tester and happens to be a huge Beyblade fan.  
 
+<<<<<<< HEAD
 ## Installation
 1. Git clone with HTTPS to your local machine ```https://github.com/JuanCodeAtATime/clickeyGame.git```
 2. From root clickeyGame directory, ```cd clickey-game``` directory 
 3. Run ```npm install``` to install dependencies
 4. Lastly, ```npm start``` to see live app via local machine
 
+=======
+>>>>>>> fda619e8bd3d803aa0448fc36a09e93cd2cb87f3
 ## Watch the Demo
 [Click here to see the Beyblades game in action!](https://drive.google.com/file/d/1gDlq5CGQ5g3MWt355mywmnVIxPgkQu_Y/view)
 

@@ -2,8 +2,11 @@
 - ```Developer: Juan Rivera```
 - ```Date: February 13, 2020```
 
+<<<<<<< HEAD
  ![Beyblade Clicks, a memory game featuring React](/public/images/app-screenshot.PNG)
 
+=======
+>>>>>>> fda619e8bd3d803aa0448fc36a09e93cd2cb87f3
 ## Overview
 **Beyblade Clicks** is a memory game that uses ```React```.  
 
@@ -21,3 +24,7 @@ Click a different Beyblade image 8 times to win the game.  Beware, clicking the 
 ## Watch the Demo!
 *Check out the video to see BeyBlade Clicks in action!*
 * https://drive.google.com/file/d/1gDlq5CGQ5g3MWt355mywmnVIxPgkQu_Y/view
+<<<<<<< HEAD
+=======
+
+>>>>>>> fda619e8bd3d803aa0448fc36a09e93cd2cb87f3
